@@ -1,5 +1,6 @@
 package test.java;
 
+import main.java.Calculadora;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

@@ -1,5 +1,6 @@
 package test.java;
 
+import main.java.Ejercicio2;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -10,7 +11,7 @@ public class Ejercicio2Test {
     void ej1() {
         System.out.println("Casos prueba Ejercicio-1 ");
         assertEquals(4,Ejercicio2.ej1(1,0,0));
-        assertEquals(4,Ejercicio2.ej1(1,5,0));
+        assertEquals(4, Ejercicio2.ej1(1,5,0));
         assertEquals(4,Ejercicio2.ej1(2,6,2));
         assertEquals(6,Ejercicio2.ej1(2,6,1));
     }

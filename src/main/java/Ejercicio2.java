@@ -10,6 +10,8 @@ public class Ejercicio2 {
         return x;
     }
 
+    // Cristina Nechydyuk Alexandrov
+
     public static int ej2(int a, int b, int c){
         int x=5;
         if ((a>1) || (b>5) || (c<2))

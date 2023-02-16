@@ -1,9 +1,9 @@
 package main.java;
 
 public class Ejercicio2 {
-    public static int ej1(int a, int b, int c){
+    public static int ej1(int valor1, int valor2, int valor3){
         int x=5;
-        if ((a>1) && (b>5) && (c<2))
+        if ((valor1>1) && (valor2>5) && (valor3<2))
             x=x+1;
         else
             x=x-1;
@@ -12,25 +12,25 @@ public class Ejercicio2 {
 
     // Cristina Nechydyuk Alexandrov
 
-    public static int ej2(int a, int b, int c){
+    public static int ej2(int uno, int dos, int tres){
         int x=5;
-        if ((a>1) || (b>5) || (c<2))
+        if ((uno>1) || (dos>5) || (tres<2))
             x=x+1;
         else
             x=x-1;
         return x;
     }
 
-    public static int ej5(int x, int y){
-        while(x!=y){
-            if (x>y){
-                x=x-y;
+    public static int ej5(int num1, int num2){
+        while(num1!=num2){
+            if (num1>num2){
+                num1=num1-num2;
             }
             else{
-                y=y-x;
+                num2=num2-num1;
             }
         }
-        return x;
+        return num1;
     }
 
     public static int ej6(int num, int x, int y){
